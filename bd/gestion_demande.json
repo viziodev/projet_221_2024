@@ -1,0 +1,157 @@
+{
+    "demandes": [
+        {
+            "id": 1,
+            "type": "Absence",
+            "date": "11\/12\/2023",
+            "etat": "Rejeter",
+            "annee_id": 1,
+            "etudiant_id": 1,
+            "motif": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nihil in nesciunt, aut quod reiciendis aliquid officiis nemo consequuntur assumenda vitae reprehenderit delectus officia beatae animi iste, quia inventore. Quos."
+        },
+        {
+            "id": 1,
+            "type": "Absence",
+            "date": "11\/12\/2023",
+            "etat": "Accepter",
+            "annee_id": 1,
+            "etudiant_id": 1,
+            "motif": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nihil in nesciunt, aut quod reiciendis aliquid officiis nemo consequuntur assumenda vitae reprehenderit delectus officia beatae animi iste, quia inventore. Quos."
+        },
+        {
+            "id": 1,
+            "type": "Suspension",
+            "date": "11\/12\/2023",
+            "etat": "Rejeter",
+            "annee_id": 1,
+            "etudiant_id": 2,
+            "motif": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nihil in nesciunt, aut quod reiciendis aliquid officiis nemo consequuntur assumenda vitae reprehenderit delectus officia beatae animi iste, quia inventore. Quos."
+        },
+        {
+            "id": 1,
+            "type": "Absence",
+            "date": "11\/12\/2023",
+            "etat": "Rejeter",
+            "annee_id": 2,
+            "etudiant_id": 1,
+            "motif": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nihil in nesciunt, aut quod reiciendis aliquid officiis nemo consequuntur assumenda vitae reprehenderit delectus officia beatae animi iste, quia inventore. Quos."
+        },
+        {
+            "id": 1,
+            "type": "Suspension",
+            "date": "11\/12\/2023",
+            "etat": "Rejeter",
+            "annee_id": 1,
+            "etudiant_id": 1,
+            "motif": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nihil in nesciunt, aut quod reiciendis aliquid officiis nemo consequuntur assumenda vitae reprehenderit delectus officia beatae animi iste, quia inventore. Quos."
+        },
+        {
+            "id": 1,
+            "type": "Absence",
+            "date": "11\/12\/2023",
+            "etat": "Rejeter",
+            "annee_id": 1,
+            "etudiant_id": 2,
+            "motif": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nihil in nesciunt, aut quod reiciendis aliquid officiis nemo consequuntur assumenda vitae reprehenderit delectus officia beatae animi iste, quia inventore. Quos."
+        },
+        {
+            "id": "6585d6470a864",
+            "type": "Absence",
+            "date": "22\/12\/2023",
+            "etat": "Encours",
+            "annee_id": 1,
+            "etudiant_id": 2,
+            "motif": "fffffff"
+        },
+        {
+            "id": "6585d66edca06",
+            "type": "Absence",
+            "date": "22\/12\/2023",
+            "etat": "Encours",
+            "annee_id": 1,
+            "etudiant_id": 2,
+            "motif": "ttttt"
+        },
+        {
+            "id": "6585d75c900a5",
+            "type": "Annulation",
+            "date": "22\/12\/2023",
+            "etat": "Encours",
+            "annee_id": 1,
+            "etudiant_id": 2,
+            "motif": "yuyuyuu"
+        },
+        {
+            "id": "65982448d4345",
+            "type": "Absence",
+            "date": "05\/01\/2024",
+            "etat": "Encours",
+            "annee_id": 1,
+            "etudiant_id": 2,
+            "motif": "utuuuu"
+        },
+        {
+            "id": "65982705b9214",
+            "type": "Absence",
+            "date": "05\/01\/2024",
+            "etat": "Encours",
+            "annee_id": 1,
+            "etudiant_id": 2,
+            "motif": "yyyyyyy"
+        },
+        {
+            "id": "6598271b3f170",
+            "type": "Absence",
+            "date": "05\/01\/2024",
+            "etat": "Encours",
+            "annee_id": 1,
+            "etudiant_id": 2,
+            "motif": "9999"
+        }
+    ],
+    "classes": [
+        
+    ],
+    "annees": [
+        {
+            "id": 1,
+            "libelle": "2023-2024",
+            "etat": 1
+        },
+        {
+            "id": 2,
+            "libelle": "2022-2023",
+            "etat": 0
+        }
+    ],
+    "users": [
+        {
+            "id":1,
+            "nom":"Diop",
+            "prenom":"Modou",
+            "classe_id":1,
+            "login":"e",
+            "pwd":"p",
+            "role":"ROLE_ETUDIANT"
+        },
+        {
+         "id":2,
+         "nom":"Kane",
+         "prenom":"Astou",
+         "classe_id":1,
+         "login":"k",
+         "pwd":"p",
+          "role":"ROLE_ETUDIANT"
+     },
+      {
+        "id":3,
+        "nom":"Kane",
+        "prenom":"Astou",
+        "classe_id":"",
+        "login":"ac",
+        "pwd":"p",
+         "role":"ROLE_AC"
+      }
+        
+      ]
+}
